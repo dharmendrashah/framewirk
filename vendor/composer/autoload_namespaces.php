@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Phpass' => array($vendorDir . '/rych/phpass/library'),
     'Neutron' => array($vendorDir . '/neutron/temporary-filesystem/src'),
     'FFMpeg' => array($vendorDir . '/php-ffmpeg/php-ffmpeg/src'),
     'Evenement' => array($vendorDir . '/evenement/evenement/src'),
