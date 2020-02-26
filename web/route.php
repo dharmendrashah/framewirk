@@ -4,7 +4,7 @@ if(!isset($_GET['url'])){
         }else{
              switch ($_GET['url']) {
              case 'home':
-                echo $blade->make('homepage')->render();
+                require 'app/controller/home.php';
              break;
              case '/':
                  echo $blade->make('homepage')->render();
